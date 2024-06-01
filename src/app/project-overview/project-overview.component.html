@@ -1,0 +1,26 @@
+<section class="project-overview-section">
+    <section>
+        <div class="projects-container">
+            @for(project of projects; track project.id){
+                @if(project.id % 2 == 0){
+                    <div class="single-project-container reverse" >
+                        <img src="{{project.img}}">
+                        <div>
+                            <h1>{{project.title}}</h1>
+                            <p>{{project.description}}</p>
+                        </div>
+                    </div>
+                }@else{
+                    <div class="single-project-container" >
+                        <img src="{{project.img}}">
+                        <div>
+                            <h1>{{project.title}}</h1>
+                            <p>{{project.description}}</p>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </section>
+</section>
+<!-- Json erstellen mit Bild von Projekt/Titel/Beschreibung in der home-main mit for-schleife diese Component erstellen lassen-->
