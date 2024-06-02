@@ -1,3 +1,17 @@
-.main-screen{
-    background-color:rgb(176, 175, 175)
+.main-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        margin: 100px 0 100px 0;
+        border-radius: 100%;
+        width: 300px;
+    }
+
+    p {
+        font-family: 'Roboto';
+        ;
+    }
 }
