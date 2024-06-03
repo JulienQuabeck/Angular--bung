@@ -39,6 +39,9 @@
         max-width: 600px;
         height: 350px;
         border-radius: 8px 0 0 8px;
+        &:hover{
+            cursor:pointer;
+        }
     }
 
     div {
